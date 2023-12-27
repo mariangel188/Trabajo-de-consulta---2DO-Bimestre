@@ -1,1 +1,1 @@
-# Trabajo-de-consulta---2DO-Bimestre
+# Trabajo-de-consulta---2do-Bimestre
