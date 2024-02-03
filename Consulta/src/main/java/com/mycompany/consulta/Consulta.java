@@ -1,6 +1,4 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- */
+
 package com.mycompany.consulta;
 
 import io.reactivex.rxjava3.core.Observable;
@@ -15,8 +13,8 @@ public class Consulta {
         Observable<String> frutasObservable = Observable.just("Fresa", "Manzana", "Uva", "Mandarina", "Banana");
 
         frutasObservable
-                .map(fruta -> fruta.toUpperCase()) // Multiplicamos cada número por 2
-                .filter(fruta -> fruta.startsWith("M")) // Filtramos solo los números divisibles por 3
+                .map(fruta -> fruta.toUpperCase()) 
+                .filter(fruta -> fruta.startsWith("M")) 
                 .subscribe(new Observer<String>() {
                     @Override
                     public void onSubscribe(Disposable d) {
